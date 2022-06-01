@@ -1,0 +1,170 @@
+/* light theme */
+.light {
+    background-color: black;
+    height: 100vh;
+    display: table;
+    width: 100%;
+
+    position: relative;
+    z-index: 0;
+    /* color: white; */
+    text-align: center;
+}
+
+.light .main_info {
+  font-size: 50px;
+  color: white;
+  /* margin-top: 150px; */
+
+  position: absolute;
+  top: 50%;
+  left: 40.5%;
+  margin: -125px 0 0 -125px;
+}
+
+.light .p5Canvas {
+  position:absolute; 
+  bottom:0;
+  /* top:0; */
+  right:0;
+  left:0; 
+  margin:auto; 
+
+  background: black;
+  z-index: -1;  
+}
+
+.light_logs {
+  background-color: black;
+  height: 100vh;
+  display: table;
+  width: 100%;
+}
+
+.light main {
+  text-align: center;
+  background-color: black;
+}
+
+.light .zab_div {
+  font-size: 40px; 
+  color: white; 
+
+  margin-top: 86px;
+  /* display: inline-block;  */
+  position: sticky;
+  top: 50px;
+  /* position: fixed; */
+  float: right;
+
+  margin-right: 140px; 
+  border-left: 3px solid transparent; 
+  border-color: white; 
+  /* height: 100%;  */
+  padding:15px;
+}
+
+
+.light .table {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 1250px; 
+    margin-left: 20px; 
+    /* display: inline-block; */
+    float: left;
+    /* table-layout:fixed;
+    height:100%; */
+    
+}
+
+/* network topology div class */
+.light .net {
+    color: white; 
+    font-size: 60px; 
+    margin-top: 200px;
+    display:inline-block;
+    clip-path: inset(0 1.3ch 0 0);
+    animation: l 1s steps(6) infinite;
+    background-color: black;
+  }
+  
+  @keyframes l {
+    to {
+      clip-path: inset(0 -1ch 0 0)
+    }
+}
+
+.light .animation {
+    background-color: rgb(255, 255, 255);
+  }
+
+.light .animation2 {
+    background-color: black;
+  }
+
+.light .navbar-default {
+    background-color: black;
+    border-color: black;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.light .navbar-default .navbar-brand {
+    color: white;
+}
+
+.light .middle{
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%,-50%);
+    color: black;
+  }
+
+.light .btn{
+    width: 250px;
+    left: -120px;
+    position: relative;
+    display: block;
+    color: black;
+    /* font-size: 14px;     */
+    margin: 30px 0;
+    padding: 14px 60px;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+
+.light .btn::before{
+    background: white;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+.light .btn3::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+
+.light .btn3:hover::before{
+    height: 380%;
+  }
+
+.light .navbar-default .navbar-nav > li > a {
+    color: white;
+    margin-left: 0px;
+}
+
+.light .navbar-default .navbar-nav > li > a:hover {
+  color: black;
+}
+.light .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
